@@ -1,10 +1,17 @@
-# Setup The Project
+<p align="center">
+  <img height="300" src="https://storage.googleapis.com/stateless-quander-website-v3-a/1/2019/01/API@100-1-650x615.jpg">
+  <h1 align="center">Quander<br /> TypeScript Grandstack</p>
+</p>
+
+## Setup The Project
 
 -   Clone this repo
 -   Run `npm install`
 -   Modify `.env` with your database settings
 
-# Seed Data
+## Seed Data
+
+If you want to play with some data, I've written a script to pull down handset data from the Samsung website (AEM) so you can import it into your Neo4j DB.
 
 From your project run `npm run seed`.
 
@@ -24,9 +31,25 @@ MERGE (feature:Feature {key: feature_key, value: feature_value})
 MERGE (product)-[:HAS_FEATURE]->(feature)
 ```
 
-# Cool Queries
+## Deployment
 
-## Relevancy
+TODO
+
+### Google Cloud Platform
+
+TODO
+
+### Azure
+
+TODO
+
+### AWS
+
+TODO
+
+## Cool Queries
+
+### Relevancy
 
 This will give you devices that are relevant to a device model
 
