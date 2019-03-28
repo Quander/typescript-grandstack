@@ -1,7 +1,7 @@
 {
-	"name": "neo4j",
-	"version": "1.0.0",
-	"description": "",
+	"name": "typescript-grandstack",
+	"version": "0.0.9",
+	"description": "Opinionated GraphQL API using GraphQL, TypeScript, Node and Neo4j",
 	"main": "src/index.ts",
 	"scripts": {
 		"start": "NODE_ENV=production node ./build/index.js",
